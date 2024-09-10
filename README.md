@@ -32,20 +32,11 @@ Este repositorio contiene una implementación del algoritmo de corrección de er
 
 ## Compilación
 
-Para compilar el proyecto, puedes utilizar el archivo `Makefile` incluido. Solo necesitas ejecutar el siguiente comando en la terminal dentro del directorio del proyecto:
+Para compilar el proyecto y ejecutar BBBSS, puedes utilizar el archivo `Makefile` incluido. Solo necesitas ejecutar el siguiente comando en la terminal dentro del directorio del proyecto:
 
 ```bash
 git clone https://github.com/afbarroscode/Error-Correction-Parity-Algorithm.git
-
-```bash
 make
-
-Para ejecutar el protocolo BBBSS
-
-```bash
 ./run.sh
 
-O bien
 
-```bash
-./bin/executable
