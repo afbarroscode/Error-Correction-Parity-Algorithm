@@ -37,6 +37,7 @@ $(EXECUTABLE): $(SOURCES) $(BIN_DIR) $(FIG_DIR)
 	@echo "Compilando el ejecutable..."
 	$(CXX) $(CXXFLAGS) -o $(EXECUTABLE) $(SOURCES)
 	chmod 755 $(EXECUTABLE)
+	chmod 777 run.sh
 	@echo "Compilación completa: Ejecutable generado en $(EXECUTABLE)"
 
 # Regla para limpiar el ejecutable y las fotos en "figures"
