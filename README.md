@@ -7,7 +7,6 @@ Este repositorio contiene una implementación del algoritmo de corrección de er
 ### Algoritmos Implementados
 
 - **Algoritmo BBBSS**: Una técnica de corrección de errores que se utiliza para minimizar la cantidad de errores en los datos compartidos entre dos partes en un protocolo QKD.
-- **Cascade Optimizado**: Mejora del algoritmo Cascade clásico para una corrección de errores más eficiente.
 - **Funciones de Permutación y Gestión**: Funciones auxiliares que optimizan el proceso de corrección y manejo de los datos recibidos.
 - **Funciones Gráficas**: Generación de gráficos para representar los resultados de las simulaciones.
 
