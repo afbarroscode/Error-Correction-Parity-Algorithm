@@ -4,9 +4,9 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++11
 
 # Directorios
-SRC_DIR = /Error-Correction-Parity-Algorithm/src
-BIN_DIR = /Error-Correction-Parity-Algorithm/bin
-FIG_DIR = /Error-Correction-Parity-Algorithm/figures
+SRC_DIR = ./src
+BIN_DIR = ./bin
+FIG_DIR = ./figures
 
 # Definir los archivos fuente y el ejecutable
 SOURCES = $(SRC_DIR)/bbbss_main.cpp \
@@ -33,7 +33,7 @@ PHOTOS = $(FIG_DIR)/*.png
 .PHONY: all clean $(FIG_DIR)
 
 # Regla para compilar el ejecutable y dar permisos
-$(EXECUTABLE): $(SOURCES) 
+$(EXECUTABLE): $(SOURCES) $(BIN_DIR) $(FIG_DIR)
 	@echo "Compilando el ejecutable..."
 	$(CXX) $(CXXFLAGS) -o $(EXECUTABLE) $(SOURCES)
 	chmod 755 $(EXECUTABLE)
