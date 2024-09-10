@@ -4,7 +4,7 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++11
 
 # Directorios
-SRC_DIR = /Error-Correction-Parity-Algorithm/bbbss/src
+SRC_DIR = /Error-Correction-Parity-Algorithm/src
 BIN_DIR = /Error-Correction-Parity-Algorithm/bin
 FIG_DIR = /Error-Correction-Parity-Algorithm/figures
 
