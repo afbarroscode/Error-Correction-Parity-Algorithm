@@ -4,9 +4,9 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++11
 
 # Directorios
-SRC_DIR = /home/alberto/Documentos/bbbss/src
-BIN_DIR = /home/alberto/Documentos/bbbss/bin
-FIG_DIR = /home/alberto/Documentos/bbbss/figures
+SRC_DIR = /Error-Correction-Parity-Algorithm/bbbss/src
+BIN_DIR = /Error-Correction-Parity-Algorithm/bin
+FIG_DIR = /Error-Correction-Parity-Algorithm/figures
 
 # Definir los archivos fuente y el ejecutable
 SOURCES = $(SRC_DIR)/bbbss_main.cpp \
