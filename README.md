@@ -21,8 +21,7 @@ Este repositorio contiene una implementación del algoritmo de corrección de er
 - `bbbss_main.cpp`: Punto de entrada principal del programa.
 - `initialization.cpp`: Funciones para la inicialización de los parámetros de QKD y los datos.
 - `algorithms.cpp`: Implementación de los algoritmos de corrección de errores.
-- `graphics.cpp`: Generación de gráficos utilizando librerías externas para visualizar los resultados.
-- `pbPlots.cpp` y `supportLib.cpp`: Librerías para la creación de gráficos.
+- 
 
 ## Requisitos
 
